@@ -32,9 +32,18 @@ section{
     border-radius: 4px;
     font-weight:600;
     margin-left: 15px;
+    margin-top:20px;
+    display:inline-block;
 }
 .topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+
+.dream-big{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
