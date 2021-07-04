@@ -11,9 +11,18 @@ h1{
     color:teal;
 }
 
-section{
+.flex{
     display:flex;
 }
+
+.shadow{
+    width: 40%;
+    box-shadow: 10px 10px 30px cyan;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+}
+
 
 .w50{
     width: 50%;
@@ -46,4 +55,22 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#color2{
+    border-left: 7px solid;
+    border-image: linear-gradient(cadetblue,cyan);
+    border-image-slice:1;
+}
+
+#color1{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,cadetblue);
+    border-image-slice:1;
+    
 }
