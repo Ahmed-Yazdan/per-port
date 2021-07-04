@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.teal{
+    color:teal;
+}
+
+section{
+    display:flex;
+}
+
+.w50{
+    width: 50%;
+    padding-left:2%;
+}
+
+.w50 img{
+    width:80%;
+}
+
+.lb{
+    text-decoration:none;
+    padding: 10px 40px;
+    background-color:teal;
+    color:white;
+    border-radius: 4px;
+    font-weight:600;
+}
